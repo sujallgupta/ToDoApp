@@ -1,16 +1,29 @@
-# React + Vite
+# ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, responsive, and user-friendly task management application** built with **React, Tailwind CSS, and Node.js**. This app helps users organize, track, and complete their daily tasks efficiently. Tasks are saved in **LocalStorage**, ensuring data persists between sessions.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Add, edit, and delete tasks
+- Mark tasks as completed to track progress
+- Filter tasks: all, pending, or completed
+- Responsive design using Tailwind CSS
+- Persistent storage using LocalStorage
+- Node.js backend (optional) to serve the app or handle API requests
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend (Client-side)
+- **React JS:** Builds the interactive UI  
+- **Tailwind CSS:** Modern, responsive styling  
+- **JavaScript:** Handles logic and interactions  
+- **LocalStorage:** Stores tasks locally in the browser  
+
+### Backend (Server-side)
+- **Node.js:** Runs the server to serve the React app or handle API requests  
+
+---
