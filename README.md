@@ -27,3 +27,25 @@ A **modern, responsive, and user-friendly task management application** built wi
 - **Node.js:** Runs the server to serve the React app or handle API requests  
 
 ---
+## Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/sujallgupta/ToDoApp.git
+
+2.Navigate to the project folder:
+cd ToDoApp
+
+3.Install dependencies:
+npm install
+
+4.Start the development server with Vite:
+npm run dev
+
+5.Open your browser and go to the URL provided by Vite (usually):
+http://localhost:5173
+
+6.Build the project for production (optional):
+npm run build
+
